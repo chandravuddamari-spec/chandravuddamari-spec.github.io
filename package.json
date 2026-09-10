@@ -1,0 +1,30 @@
+{
+  "name": "adarsh-umesh-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Adarsh Umesh - Product Manager & Full-Stack Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server -p 8000 -o",
+    "build": "echo 'No build step required for static site'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarshumesh5/adarsh-umesh-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "product-manager",
+    "full-stack",
+    "engineer",
+    "web-development",
+    "resume",
+    "personal-website"
+  ],
+  "author": "Adarsh Umesh <connect2adarshum@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adarshumesh5/adarsh-umesh-portfolio/issues"
+  },
+  "homepage": "https://github.com/adarshumesh5/adarsh-umesh-portfolio#readme"
+}

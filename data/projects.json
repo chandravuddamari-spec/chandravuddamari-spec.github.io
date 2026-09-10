@@ -1,0 +1,218 @@
+{
+  "_instructions": "Add your projects here. Each project should showcase your work.",
+  "sectionTitle": "Featured Projects",
+  "projects": [
+    {
+      "title": "BCG X Data Science Job Simulation (Forage)",
+      "description": "Completed a consulting-style data science engagement framing an ambiguous business problem, then working end to end through exploratory data analysis, feature engineering, model building, and evaluation. Delivered insights and recommendations translating model output into actions a client could act on.",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "",
+      "demo": ""
+    },
+    {
+      "title": "HR & Compensation Analytics Project",
+      "description": "Built a people analytics data model examining employee attrition, compensation, performance, and satisfaction using a normalized MySQL schema paired with a denormalized MongoDB analytical layer, surfacing which compensation bands and performance tiers correlated most strongly with turnover risk",
+      "technologies": [
+        "MySQL",
+        "MongoDB"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link",
+      "demo": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link"
+    },
+    {
+      "title": "AR Autopilot AI Workflow Automation",
+      "description": "AI agent automating a full financial operations lifecycle using LLM-drafted communications and automatic payment matching, routing high-risk cases to human review with every decision logged to an audit trail.",
+      "technologies": [
+        "LLM"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9",
+      "demo": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9"
+    },
+    {
+      "title": "customer-churn-prediction",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/customer-churn-prediction",
+      "demo": "https://github.com/chandravuddamari-spec/customer-churn-prediction"
+    },
+    {
+      "title": "log-analysis-anomaly-detection",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection",
+      "demo": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection"
+    },
+    {
+      "title": "predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "demo": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting"
+    },
+    {
+      "title": "time-series-forecasting-python",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/time-series-forecasting-python",
+      "demo": "https://github.com/chandravuddamari-spec/time-series-forecasting-python"
+    },
+    {
+      "title": "sql-datawarehouse-project",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "TSQL"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project",
+      "demo": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project"
+    },
+    {
+      "title": "cohortkit",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/cohortkit",
+      "demo": "https://github.com/chandravuddamari-spec/cohortkit"
+    },
+    {
+      "title": "customer-trends-data-analysis-sql-python-powerbi",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi",
+      "demo": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi"
+    },
+    {
+      "title": "field-ops-sql-cost-audit",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit",
+      "demo": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit"
+    },
+    {
+      "title": "retail-margin-cockpit",
+      "description": "Personal development project using industry best practices",
+      "technologies": [
+        "Python",
+        "PLpgSQL",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/retail-margin-cockpit",
+      "demo": "https://github.com/chandravuddamari-spec/retail-margin-cockpit"
+    },
+    {
+      "title": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "demo": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction"
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/contribution-history",
+      "demo": "https://github.com/chandravuddamari-spec/contribution-history"
+    },
+    {
+      "title": "excel-portfolio-project",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/excel-portfolio-project",
+      "demo": "https://github.com/chandravuddamari-spec/excel-portfolio-project"
+    },
+    {
+      "title": "financial-insights-in-banking-data-using-powerbi",
+      "description": "Personal development project using industry best practices",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi",
+      "demo": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi"
+    },
+    {
+      "title": "us-healthcare-analysis-powerbi",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi",
+      "demo": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi"
+    },
+    {
+      "title": "supply-chain-analysis-in-the-fmcg-domain-atliqmart",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
+      "demo": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart"
+    },
+    {
+      "title": "lakehouse-quality-gate",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate",
+      "demo": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate"
+    },
+    {
+      "title": "end-to-end-pipeline-snowflake-dbt-tableau",
+      "description": "Hands-on learning experience with modern frameworks",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau",
+      "demo": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau"
+    },
+    {
+      "title": "analytics-engineering-prototype",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype",
+      "demo": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype"
+    },
+    {
+      "title": "sales-insights-data-analysis-using-tableau-and-sql",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql",
+      "demo": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql"
+    },
+    {
+      "title": "streamlit-digital-marketing-dashboard",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard",
+      "demo": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard"
+    }
+  ]
+}

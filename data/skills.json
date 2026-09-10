@@ -1,0 +1,47 @@
+{
+  "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
+  "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "SQL",
+        "Python",
+        "R",
+        "VBA"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "Power Query",
+        "Excel",
+        "Google Sheets",
+        "Power BI",
+        "Tableau",
+        "Quick sight",
+        "Alteryx",
+        "Celonis Infrastructure",
+        "KNIME",
+        "Make.com",
+        "SAP"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Data Analysis",
+        "Trend Analysis",
+        "A/B Testing",
+        "Statistical Analysis",
+        "Scenario Modeling",
+        "Forecasting",
+        "Feature engineering"
+      ]
+    }
+  ]
+}

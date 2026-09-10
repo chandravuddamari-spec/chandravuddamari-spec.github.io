@@ -1,0 +1,18 @@
+{
+  "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
+  "meta": {
+    "title": "Sai Chandra Vuddamari | Research and Innovation Analyst",
+    "description": "Sai Chandra Vuddamari - Research and Innovation Analyst | Portfolio",
+    "author": "Sai Chandra Vuddamari",
+    "keywords": "Research and Innovation Analyst, Portfolio, Sai Chandra Vuddamari"
+  },
+  "branding": {
+    "name": "Sai Chandra Vuddamari",
+    "tagline": "Research and Innovation Analyst"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "navbarScrollEffect": true
+  }
+}

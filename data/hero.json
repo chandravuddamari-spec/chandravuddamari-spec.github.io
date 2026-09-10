@@ -1,0 +1,45 @@
+{
+  "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
+  "greeting": "Hi, I'm",
+  "name": "Sai Chandra Vuddamari",
+  "title": "Research and Innovation Analyst",
+  "summary": "Research and Innovation Analyst with 4+ years of experience specializing in SQL, Python, R.",
+  "avatarUrl": "/avatar.png",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "Professional Experience"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "Technical Expertise"
+    },
+    {
+      "icon": "fas fa-users",
+      "text": "Team Collaboration"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary",
+        "external": false
+      },
+      {
+        "text": "View My Work",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:sssaichandra375@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

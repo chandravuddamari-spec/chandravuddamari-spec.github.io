@@ -1,0 +1,21 @@
+{
+  "_instructions": "About section content.",
+  "sectionTitle": "About Me",
+  "paragraphs": [
+    "I am Detail-oriented analyst who builds structure out of critical thinking analysing data through Excel trackers, dashboards, and SQL/R while working directly with stakeholders to close gaps and keep reporting accurate in a fast-paced, evolving environment."
+  ],
+  "statistics": [
+    {
+      "value": "4+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "7+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": "15+",
+      "label": "Technologies"
+    }
+  ]
+}
