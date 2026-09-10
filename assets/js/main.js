@@ -72,6 +72,18 @@ async function loadHero() {
         if (heroTitle) heroTitle.textContent = hero.title;
         if (heroSummary) heroSummary.innerHTML = hero.summary;
 
+        // Profile photo
+        const avatarContainer = document.getElementById('heroAvatar');
+        if (avatarContainer && hero.avatarUrl) {
+            const img = document.createElement('img');
+            img.src = hero.avatarUrl;
+            img.alt = hero.avatarAlt || hero.name || 'Profile photo';
+            img.className = 'avatar-img';
+            img.loading = 'eager';
+            img.decoding = 'async';
+            avatarContainer.appendChild(img);
+        }
+
         // Build highlights
         const highlightsContainer = document.getElementById('heroHighlights');
         if (highlightsContainer) {
@@ -344,12 +356,19 @@ async function loadExperience() {
                 ? `<ul>${exp.responsibilities.map(r => `<li>${r}</li>`).join('')}</ul>`
                 : '';
 
+            const logo = exp.logo
+                ? `<img class="org-logo" src="${exp.logo}" alt="${exp.logoAlt || exp.company} logo" loading="lazy">`
+                : '';
+
             timelineItem.innerHTML = `
                 <div class="timeline-content">
                     <div class="timeline-header">
-                        <div>
-                            <h3 class="timeline-title">${exp.title}</h3>
-                            <p class="timeline-company">${exp.company}</p>
+                        <div class="timeline-heading">
+                            ${logo}
+                            <div>
+                                <h3 class="timeline-title">${exp.title}</h3>
+                                <p class="timeline-company">${exp.company}</p>
+                            </div>
                         </div>
                         <span class="timeline-period">${exp.period}</span>
                     </div>
@@ -443,9 +462,13 @@ async function loadProjects() {
                 </a>`);
             }
 
+            const projectVisual = project.logo
+                ? `<img class="project-logo" src="${project.logo}" alt="${project.logoAlt || project.title} logo" loading="lazy">`
+                : `<i class="${project.icon || 'fas fa-code'}"></i>`;
+
             projectCard.innerHTML = `
                 <div class="project-image">
-                    <i class="${project.icon || 'fas fa-code'}"></i>
+                    ${projectVisual}
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">${project.title}</h3>
@@ -492,11 +515,18 @@ async function loadEducation() {
             const eduItem = document.createElement('div');
             eduItem.className = 'education-item';
 
+            const eduLogo = edu.logo
+                ? `<img class="org-logo" src="${edu.logo}" alt="${edu.logoAlt || edu.school} logo" loading="lazy">`
+                : '';
+
             eduItem.innerHTML = `
                 <div class="education-header">
-                    <div>
-                        <h3 class="education-degree">${edu.degree}</h3>
-                        <p class="education-school">${edu.school}</p>
+                    <div class="education-heading">
+                        ${eduLogo}
+                        <div>
+                            <h3 class="education-degree">${edu.degree}</h3>
+                            <p class="education-school">${edu.school}</p>
+                        </div>
                     </div>
                     <span class="education-period">${edu.period}</span>
                 </div>
@@ -528,31 +558,48 @@ async function loadEducation() {
 // ==========================================================================
 // Scroll Reveal Animation
 // ==========================================================================
+const REVEAL_SELECTOR = '.timeline-item, .skill-category, .project-card, .education-item, .stat-item';
+
+function reveal(element) {
+    element.style.opacity = '1';
+    element.style.transform = 'translateY(0)';
+}
+
 function revealOnScroll() {
-    const elements = document.querySelectorAll('.timeline-item, .skill-category, .project-card, .education-item, .stat-item');
-
-    elements.forEach(element => {
-        const elementTop = element.getBoundingClientRect().top;
-        const elementVisible = 150;
-
-        if (elementTop < window.innerHeight - elementVisible) {
-            element.style.opacity = '1';
-            element.style.transform = 'translateY(0)';
-        }
+    document.querySelectorAll(REVEAL_SELECTOR).forEach(element => {
+        const rect = element.getBoundingClientRect();
+        // Reveal anything already scrolled past or currently on screen.
+        if (rect.top < window.innerHeight) reveal(element);
     });
 }
 
 // Initialize elements for scroll animation
 function initScrollAnimation() {
-    const elements = document.querySelectorAll('.timeline-item, .skill-category, .project-card, .education-item, .stat-item');
+    const elements = document.querySelectorAll(REVEAL_SELECTOR);
+
+    // Without IntersectionObserver, show everything rather than risk a blank page.
+    if (!('IntersectionObserver' in window)) {
+        elements.forEach(reveal);
+        return;
+    }
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            reveal(entry.target);
+            obs.unobserve(entry.target);
+        });
+    }, { rootMargin: '0px 0px -80px 0px' });
+
     elements.forEach(element => {
         element.style.opacity = '0';
         element.style.transform = 'translateY(30px)';
         element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(element);
     });
 }
 
-window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('scroll', revealOnScroll, { passive: true });
 
 // ==========================================================================
 // Initialize Everything When DOM is Ready

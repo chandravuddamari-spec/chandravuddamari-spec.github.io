@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="UTD">
+  <rect width="100" height="100" rx="22" fill="#154734"/>
+  <text x="50" y="50" fill="#E87500" font-family="Segoe UI,Helvetica,Arial,sans-serif"
+        font-size="30" font-weight="700" letter-spacing="1"
+        text-anchor="middle" dominant-baseline="central">UTD</text>
+</svg>

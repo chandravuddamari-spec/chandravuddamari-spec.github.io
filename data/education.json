@@ -9,7 +9,9 @@
       "institution": "The University of Texas at Dallas",
       "period": "August 2024- May 2026",
       "details": "",
-      "description": ""
+      "description": "",
+      "logo": "assets/img/logos/utdallas.svg",
+      "logoAlt": "UT Dallas"
     },
     {
       "degree": "Bachelor of Business Administration Hons",
@@ -17,7 +19,9 @@
       "institution": "Pandit Deendayal Energy University",
       "period": "August 2020- June 2024",
       "details": "",
-      "description": ""
+      "description": "",
+      "logo": "assets/img/logos/pdeu.svg",
+      "logoAlt": "PDEU"
     }
   ],
   "certifications": []

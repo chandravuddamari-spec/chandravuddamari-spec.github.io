@@ -8,7 +8,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "",
-      "demo": ""
+      "demo": "",
+      "logo": "assets/img/logos/bcgx.svg",
+      "logoAlt": "BCG X"
     },
     {
       "title": "HR & Compensation Analytics Project",

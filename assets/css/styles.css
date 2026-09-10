@@ -945,3 +945,62 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==========================================================================
+   Profile Photo & Organization Logos
+   ========================================================================== */
+.hero-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.hero-avatar .avatar-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 4px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+    background: var(--bg-secondary);
+}
+
+.timeline-heading,
+.education-heading {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    min-width: 0;
+}
+
+.org-logo {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: var(--radius-md);
+    object-fit: contain;
+    background: #fff;
+    box-shadow: var(--shadow-sm);
+}
+
+.project-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-md);
+    object-fit: contain;
+    background: #fff;
+}
+
+@media (max-width: 768px) {
+    .hero-avatar .avatar-img {
+        width: 132px;
+        height: 132px;
+        border-width: 3px;
+    }
+
+    .org-logo {
+        width: 42px;
+        height: 42px;
+    }
+}
