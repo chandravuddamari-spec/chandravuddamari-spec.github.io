@@ -10,7 +10,9 @@
       "github": "",
       "demo": "",
       "logo": "assets/img/logos/bcgx.svg",
-      "logoAlt": "BCG X"
+      "logoAlt": "BCG X",
+      "cover": "assets/img/covers/bcg-x-data-science-job-simulation-forage.svg",
+      "coverAlt": "BCG X Data Science Job Simulation (Forage) — Data Science"
     },
     {
       "title": "HR & Compensation Analytics Project",
@@ -21,7 +23,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link",
-      "demo": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link"
+      "demo": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link",
+      "cover": "assets/img/covers/hr-compensation-analytics-project.svg",
+      "coverAlt": "HR & Compensation Analytics Project — People Analytics"
     },
     {
       "title": "AR Autopilot AI Workflow Automation",
@@ -31,7 +35,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9",
-      "demo": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9"
+      "demo": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9",
+      "cover": "assets/img/covers/ar-autopilot-ai-workflow-automation.svg",
+      "coverAlt": "AR Autopilot AI Workflow Automation — AI Automation"
     },
     {
       "title": "customer-churn-prediction",
@@ -41,7 +47,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/customer-churn-prediction",
-      "demo": "https://github.com/chandravuddamari-spec/customer-churn-prediction"
+      "demo": "https://github.com/chandravuddamari-spec/customer-churn-prediction",
+      "cover": "assets/img/covers/customer-churn-prediction.svg",
+      "coverAlt": "customer-churn-prediction — Machine Learning"
     },
     {
       "title": "log-analysis-anomaly-detection",
@@ -51,7 +59,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection",
-      "demo": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection"
+      "demo": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection",
+      "cover": "assets/img/covers/log-analysis-anomaly-detection.svg",
+      "coverAlt": "log-analysis-anomaly-detection — Anomaly Detection"
     },
     {
       "title": "predictive-maintainence-using-data-analysis-and-time-series-forecasting",
@@ -61,7 +71,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
-      "demo": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting"
+      "demo": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "cover": "assets/img/covers/predictive-maintainence-using-data-analysis-and-time-series-.svg",
+      "coverAlt": "predictive-maintainence-using-data-analysis-and-time-series-forecasting — Forecasting"
     },
     {
       "title": "time-series-forecasting-python",
@@ -71,7 +83,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/time-series-forecasting-python",
-      "demo": "https://github.com/chandravuddamari-spec/time-series-forecasting-python"
+      "demo": "https://github.com/chandravuddamari-spec/time-series-forecasting-python",
+      "cover": "assets/img/covers/time-series-forecasting-python.svg",
+      "coverAlt": "time-series-forecasting-python — Forecasting"
     },
     {
       "title": "sql-datawarehouse-project",
@@ -81,7 +95,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project",
-      "demo": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project"
+      "demo": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project",
+      "cover": "assets/img/covers/sql-datawarehouse-project.svg",
+      "coverAlt": "sql-datawarehouse-project — Data Warehouse"
     },
     {
       "title": "cohortkit",
@@ -91,7 +107,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/cohortkit",
-      "demo": "https://github.com/chandravuddamari-spec/cohortkit"
+      "demo": "https://github.com/chandravuddamari-spec/cohortkit",
+      "cover": "assets/img/covers/cohortkit.svg",
+      "coverAlt": "cohortkit — Cohort Analysis"
     },
     {
       "title": "customer-trends-data-analysis-sql-python-powerbi",
@@ -101,7 +119,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi",
-      "demo": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi"
+      "demo": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi",
+      "cover": "assets/img/covers/customer-trends-data-analysis-sql-python-powerbi.svg",
+      "coverAlt": "customer-trends-data-analysis-sql-python-powerbi — SQL · Python · Power BI"
     },
     {
       "title": "field-ops-sql-cost-audit",
@@ -112,7 +132,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit",
-      "demo": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit"
+      "demo": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit",
+      "cover": "assets/img/covers/field-ops-sql-cost-audit.svg",
+      "coverAlt": "field-ops-sql-cost-audit — Analytical SQL"
     },
     {
       "title": "retail-margin-cockpit",
@@ -124,7 +146,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/retail-margin-cockpit",
-      "demo": "https://github.com/chandravuddamari-spec/retail-margin-cockpit"
+      "demo": "https://github.com/chandravuddamari-spec/retail-margin-cockpit",
+      "cover": "assets/img/covers/retail-margin-cockpit.svg",
+      "coverAlt": "retail-margin-cockpit — dbt · DAX"
     },
     {
       "title": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
@@ -134,7 +158,9 @@
       ],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction",
-      "demo": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction"
+      "demo": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "cover": "assets/img/covers/ibm-hr-analytics-employee-attrition-and-performance-predicti.svg",
+      "coverAlt": "ibm-hr-analytics-employee-attrition-and-performance-prediction — Attrition Modeling"
     },
     {
       "title": "contribution-history",
@@ -142,7 +168,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/contribution-history",
-      "demo": "https://github.com/chandravuddamari-spec/contribution-history"
+      "demo": "https://github.com/chandravuddamari-spec/contribution-history",
+      "cover": "assets/img/covers/contribution-history.svg",
+      "coverAlt": "contribution-history — GitHub"
     },
     {
       "title": "excel-portfolio-project",
@@ -150,7 +178,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/excel-portfolio-project",
-      "demo": "https://github.com/chandravuddamari-spec/excel-portfolio-project"
+      "demo": "https://github.com/chandravuddamari-spec/excel-portfolio-project",
+      "cover": "assets/img/covers/excel-portfolio-project.svg",
+      "coverAlt": "excel-portfolio-project — Advanced Excel"
     },
     {
       "title": "financial-insights-in-banking-data-using-powerbi",
@@ -158,7 +188,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi",
-      "demo": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi"
+      "demo": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi",
+      "cover": "assets/img/covers/financial-insights-in-banking-data-using-powerbi.svg",
+      "coverAlt": "financial-insights-in-banking-data-using-powerbi — Power BI"
     },
     {
       "title": "us-healthcare-analysis-powerbi",
@@ -166,7 +198,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi",
-      "demo": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi"
+      "demo": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi",
+      "cover": "assets/img/covers/us-healthcare-analysis-powerbi.svg",
+      "coverAlt": "us-healthcare-analysis-powerbi — Power BI"
     },
     {
       "title": "supply-chain-analysis-in-the-fmcg-domain-atliqmart",
@@ -174,7 +208,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
-      "demo": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart"
+      "demo": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
+      "cover": "assets/img/covers/supply-chain-analysis-in-the-fmcg-domain-atliqmart.svg",
+      "coverAlt": "supply-chain-analysis-in-the-fmcg-domain-atliqmart — Supply Chain"
     },
     {
       "title": "lakehouse-quality-gate",
@@ -182,7 +218,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate",
-      "demo": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate"
+      "demo": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate",
+      "cover": "assets/img/covers/lakehouse-quality-gate.svg",
+      "coverAlt": "lakehouse-quality-gate — Data Quality"
     },
     {
       "title": "end-to-end-pipeline-snowflake-dbt-tableau",
@@ -190,7 +228,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau",
-      "demo": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau"
+      "demo": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau",
+      "cover": "assets/img/covers/end-to-end-pipeline-snowflake-dbt-tableau.svg",
+      "coverAlt": "end-to-end-pipeline-snowflake-dbt-tableau — Snowflake · dbt"
     },
     {
       "title": "analytics-engineering-prototype",
@@ -198,7 +238,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype",
-      "demo": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype"
+      "demo": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype",
+      "cover": "assets/img/covers/analytics-engineering-prototype.svg",
+      "coverAlt": "analytics-engineering-prototype — dbt · BigQuery"
     },
     {
       "title": "sales-insights-data-analysis-using-tableau-and-sql",
@@ -206,7 +248,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql",
-      "demo": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql"
+      "demo": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql",
+      "cover": "assets/img/covers/sales-insights-data-analysis-using-tableau-and-sql.svg",
+      "coverAlt": "sales-insights-data-analysis-using-tableau-and-sql — Tableau · SQL"
     },
     {
       "title": "streamlit-digital-marketing-dashboard",
@@ -214,7 +258,9 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard",
-      "demo": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard"
+      "demo": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard",
+      "cover": "assets/img/covers/streamlit-digital-marketing-dashboard.svg",
+      "coverAlt": "streamlit-digital-marketing-dashboard — Streamlit"
     }
   ]
 }

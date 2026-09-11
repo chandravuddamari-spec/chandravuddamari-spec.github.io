@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="Anomaly Detection project cover">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C2D12"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#g)"/>
+  <polyline points="92,250 180,225 268,238 356,196 444,170 532,182 620,140 708,118" fill="none" stroke="#FFEDD5" stroke-width="6" opacity="0.30" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="92" cy="250" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="180" cy="225" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="268" cy="238" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="356" cy="196" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="444" cy="170" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="532" cy="182" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="620" cy="140" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="708" cy="118" r="9" fill="#FFEDD5" opacity="0.34"/>
+  <circle cx="448" cy="199" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="114" cy="140" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="169" cy="280" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="627" cy="190" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="274" cy="258" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="108" cy="231" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="479" cy="133" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="476" cy="193" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="525" cy="283" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="683" cy="146" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="606" cy="182" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="668" cy="159" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="212" cy="198" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <circle cx="370" cy="226" r="5" fill="#FFEDD5" opacity="0.14"/>
+  <text x="400" y="358" fill="#FFEDD5" font-family="Segoe UI,Helvetica,Arial,sans-serif"
+        font-size="27" font-weight="600" letter-spacing="3.5"
+        text-anchor="middle" opacity="0.94">ANOMALY DETECTION</text>
+</svg>

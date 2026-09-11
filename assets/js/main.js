@@ -462,12 +462,18 @@ async function loadProjects() {
                 </a>`);
             }
 
-            const projectVisual = project.logo
-                ? `<img class="project-logo" src="${project.logo}" alt="${project.logoAlt || project.title} logo" loading="lazy">`
-                : `<i class="${project.icon || 'fas fa-code'}"></i>`;
+            // Cover art wins; fall back to a logo, then to the generic icon.
+            let projectVisual;
+            if (project.cover) {
+                projectVisual = `<img class="project-cover" src="${project.cover}" alt="${project.coverAlt || project.title}" loading="lazy">`;
+            } else if (project.logo) {
+                projectVisual = `<img class="project-logo" src="${project.logo}" alt="${project.logoAlt || project.title} logo" loading="lazy">`;
+            } else {
+                projectVisual = `<i class="${project.icon || 'fas fa-code'}"></i>`;
+            }
 
             projectCard.innerHTML = `
-                <div class="project-image">
+                <div class="project-image${project.cover ? ' has-cover' : ''}">
                     ${projectVisual}
                 </div>
                 <div class="project-content">

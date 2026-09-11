@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="Analytical SQL project cover">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C4A6E"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#g)"/>
+  <rect x="92" y="110" width="616" height="34" rx="5" fill="#E0F2FE" opacity="0.2"/>
+  <rect x="92" y="156" width="616" height="34" rx="5" fill="#E0F2FE" opacity="0.1"/>
+  <rect x="92" y="202" width="616" height="34" rx="5" fill="#E0F2FE" opacity="0.1"/>
+  <rect x="92" y="248" width="616" height="34" rx="5" fill="#E0F2FE" opacity="0.1"/>
+  <rect x="244" y="110" width="3" height="172" fill="#E0F2FE" opacity="0.16"/>
+  <rect x="398" y="110" width="3" height="172" fill="#E0F2FE" opacity="0.16"/>
+  <rect x="552" y="110" width="3" height="172" fill="#E0F2FE" opacity="0.16"/>
+  <text x="400" y="358" fill="#E0F2FE" font-family="Segoe UI,Helvetica,Arial,sans-serif"
+        font-size="27" font-weight="600" letter-spacing="3.5"
+        text-anchor="middle" opacity="0.94">ANALYTICAL SQL</text>
+</svg>
