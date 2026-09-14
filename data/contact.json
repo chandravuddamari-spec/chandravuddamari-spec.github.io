@@ -1,6 +1,6 @@
 {
   "_instructions": "Contact section.",
-  "sectionTitle": "Get In Touch",
+  "sectionTitle": "Get in touch",
   "contactInfo": [
     {
       "type": "email",
@@ -17,32 +17,5 @@
       "href": "tel:4693600738"
     }
   ],
-  "form": {
-    "fields": [
-      {
-        "id": "name",
-        "type": "text",
-        "placeholder": "Your Name",
-        "required": true
-      },
-      {
-        "id": "email",
-        "type": "email",
-        "placeholder": "Your Email",
-        "required": true
-      },
-      {
-        "id": "message",
-        "type": "textarea",
-        "placeholder": "Your Message",
-        "rows": 5,
-        "required": true
-      }
-    ],
-    "submitButton": {
-      "text": "Send Message",
-      "type": "primary"
-    },
-    "successMessage": "Thank you for your message!"
-  }
+  "lede": "Email is the fastest way to reach me."
 }

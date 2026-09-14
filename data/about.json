@@ -1,21 +1,21 @@
 {
   "_instructions": "About section content.",
-  "sectionTitle": "About Me",
+  "sectionTitle": "About",
   "paragraphs": [
     "Detail-oriented data analyst who builds structure out of ambiguity. I work in SQL, Python, R, and Power BI, building dashboards and trackers, running forecasting and anomaly detection, and partnering with stakeholders to close reporting gaps in fast-moving environments."
   ],
   "statistics": [
     {
       "value": "4+",
-      "label": "Years Experience"
+      "label": "Years of experience"
     },
     {
-      "value": "7+",
-      "label": "Projects Completed"
+      "value": "auto:projects",
+      "label": "Projects on this page"
     },
     {
-      "value": "15+",
-      "label": "Technologies"
+      "value": "auto:skills",
+      "label": "Tools and methods"
     }
   ]
 }

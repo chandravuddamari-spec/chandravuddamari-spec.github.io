@@ -1,27 +1,29 @@
 {
   "_instructions": "Add your education and certifications here.",
-  "sectionTitle": "Education & Certifications",
+  "sectionTitle": "Education",
   "certificationsTitle": "Certifications",
   "education": [
     {
       "degree": "Master of Science",
       "school": "The University of Texas at Dallas",
       "institution": "The University of Texas at Dallas",
-      "period": "August 2024- May 2026",
+      "period": "August 2024 - May 2026",
       "details": "",
       "description": "",
       "logo": "assets/img/logos/utdallas.svg",
-      "logoAlt": "UT Dallas"
+      "logoAlt": "UT Dallas",
+      "chartLabel": "MS, UT Dallas"
     },
     {
       "degree": "Bachelor of Business Administration Hons",
       "school": "Pandit Deendayal Energy University",
       "institution": "Pandit Deendayal Energy University",
-      "period": "August 2020- June 2024",
+      "period": "August 2020 - June 2024",
       "details": "",
       "description": "",
-      "logo": "assets/img/logos/pdeu.svg",
-      "logoAlt": "PDEU"
+      "logo": "assets/img/logos/pdeu.png",
+      "logoAlt": "PDEU",
+      "chartLabel": "BBA (Hons), PDEU"
     }
   ],
   "certifications": []

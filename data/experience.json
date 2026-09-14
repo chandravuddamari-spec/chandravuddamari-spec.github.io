@@ -1,6 +1,6 @@
 {
   "_instructions": "Add your work experience here. Copy the experience object for each job.",
-  "sectionTitle": "Professional Experience",
+  "sectionTitle": "Experience",
   "experiences": [
     {
       "title": "Research and Innovation Analyst",
@@ -9,14 +9,14 @@
       "location": "",
       "description": "Utilized Make.com automation workflows for recurring reporting, thereby eliminating manual document synthesis and reducing turnaround from one week to same day. Conducted comprehensive data analysis to inform strategic business decisions using descriptive, regression, dispersion, and time series analysis surfaced early-warning signals through anomaly detection that drove proactive resource reallocation. Authored end-to-end workflow documentation covering prompt templates, validation logic, and process SOPs, enabling team members with no automation background to run AI-assisted reporting independently. Produced slide-ready executive summaries translating multi-source program data into leadership-facing narratives using Power BI visualizations, resulting in findings adopted directly into quarterly planning discussions.",
       "responsibilities": [
-        "Utilized Make",
-        "com automation workflows for recurring reporting, thereby eliminating manual document synthesis and reducing turnaround from one week to same day",
+        "Utilized Make.com automation workflows for recurring reporting, thereby eliminating manual document synthesis and reducing turnaround from one week to same day",
         "Conducted comprehensive data analysis to inform strategic business decisions using descriptive, regression, dispersion, and time series analysis surfaced early-warning signals through anomaly detection that drove proactive resource reallocation",
         "Authored end-to-end workflow documentation covering prompt templates, validation logic, and process SOPs, enabling team members with no automation background to run AI-assisted reporting independently",
         "Produced slide-ready executive summaries translating multi-source program data into leadership-facing narratives using Power BI visualizations, resulting in findings adopted directly into quarterly planning discussions"
       ],
       "logo": "assets/img/logos/utdallas.svg",
-      "logoAlt": "UT Dallas"
+      "logoAlt": "UT Dallas",
+      "chartLabel": "Research & innovation analyst, UT Dallas"
     },
     {
       "title": "Data Analyst",
@@ -31,8 +31,9 @@
         "Cut reporting overhead 40% by rebuilding a recurring manual workflow into self-service Power BI dashboards, enabling stakeholders to answer their own questions directly",
         "Reconciled large-scale datasets monthly across multiple systems, using Excel to cross-check records, catch mismatches, and resolve discrepancies before they reached downstream reporting maintained the accuracy standards required for business-critical decisions"
       ],
-      "logo": "assets/img/logos/younity.svg",
-      "logoAlt": "Younity.in"
+      "logo": "assets/img/logos/younity.png",
+      "logoAlt": "Younity.in",
+      "chartLabel": "Younity.in, intern to data analyst"
     },
     {
       "title": "Data Analyst Intern",
@@ -44,8 +45,9 @@
         "Created Tableau dashboards visualizing campaign ROI, user retention cohorts, and product adoption curves, replacing static weekly reports with a continuous analytical feedback loop for leadership",
         "Explored past 5 years of subscription data using Python to identify trends and performance drivers, uncovering process bottlenecks that enabled faster decision-making"
       ],
-      "logo": "assets/img/logos/younity.svg",
-      "logoAlt": "Younity.in"
+      "logo": "assets/img/logos/younity.png",
+      "logoAlt": "Younity.in",
+      "chartLabel": ""
     },
     {
       "title": "Operations Intern",
@@ -57,8 +59,9 @@
         "Applied time-series forecasting model in Excel using 3 years of shipment data to guide routing decisions, cut average delivery time by 8% and gave operations a data-backed planning baseline",
         "Consolidated multi-source SAP shipment and inventory data into structured reports for senior managers, validating accuracy before delivery to support demand planning"
       ],
-      "logo": "assets/img/logos/premier.svg",
-      "logoAlt": "Premier Roadlines"
+      "logo": "assets/img/logos/premier.png",
+      "logoAlt": "Premier Roadlines",
+      "chartLabel": "Operations intern, Premier Roadlines"
     }
   ]
 }

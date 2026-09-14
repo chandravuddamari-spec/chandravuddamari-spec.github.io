@@ -1,266 +1,274 @@
 {
   "_instructions": "Add your projects here. Each project should showcase your work.",
-  "sectionTitle": "Featured Projects",
+  "sectionTitle": "Projects",
   "projects": [
     {
-      "title": "BCG X Data Science Job Simulation (Forage)",
-      "description": "Completed a consulting-style data science engagement framing an ambiguous business problem, then working end to end through exploratory data analysis, feature engineering, model building, and evaluation. Delivered insights and recommendations translating model output into actions a client could act on.",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
+      "title": "AR Autopilot: AI Workflow Automation",
+      "description": "AI agent automating a full financial operations lifecycle using LLM-drafted communications and automatic payment matching, routing high-risk cases to human review with every decision logged to an audit trail.",
+      "technologies": [
+        "LLM",
+        "Workflow automation",
+        "Audit trail"
+      ],
       "github": "",
-      "demo": "",
-      "logo": "assets/img/logos/bcgx.svg",
-      "logoAlt": "BCG X",
-      "cover": "assets/img/covers/bcg-x-data-science-job-simulation-forage.svg",
-      "coverAlt": "BCG X Data Science Job Simulation (Forage) — Data Science"
+      "demo": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9",
+      "cover": "assets/img/covers/ar-autopilot-automation.jpg",
+      "featured": true
     },
     {
-      "title": "HR & Compensation Analytics Project",
-      "description": "Built a people analytics data model examining employee attrition, compensation, performance, and satisfaction using a normalized MySQL schema paired with a denormalized MongoDB analytical layer, surfacing which compensation bands and performance tiers correlated most strongly with turnover risk",
+      "title": "Retail Margin Cockpit",
+      "description": "A governed margin and inventory source of truth for retail teams: a dbt star schema, a DAX measure library, and a Power BI report with row-level security by region, replacing five disconnected spreadsheets.",
+      "technologies": [
+        "dbt",
+        "PostgreSQL",
+        "DAX",
+        "Power BI",
+        "Docker"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/retail-margin-cockpit",
+      "demo": "",
+      "cover": "assets/img/covers/retail-margin-cockpit.jpg"
+    },
+    {
+      "title": "Field Ops Cost-to-Serve Audit",
+      "description": "A tested dbt and SQL pipeline that reconciles dispatch, route, timesheet, and fuel data into a true cost-to-serve per job and route, and shows where SLA breaches concentrate.",
+      "technologies": [
+        "dbt",
+        "SQL",
+        "Python",
+        "Docker"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit",
+      "demo": "",
+      "cover": "assets/img/covers/field-ops-cost-audit.jpg"
+    },
+    {
+      "title": "cohortkit",
+      "description": "A Python library and CLI that produces cohort retention triangles, RFM segments, and revenue by cohort from any orders table, running in-process on DuckDB with no warehouse to set up.",
+      "technologies": [
+        "Python",
+        "DuckDB",
+        "pandas"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/cohortkit",
+      "demo": "",
+      "cover": "assets/img/covers/cohortkit-retention.jpg"
+    },
+    {
+      "title": "Snowflake, dbt, and Tableau Pipeline",
+      "description": "Moves sales data from AWS S3 into Snowflake, transforms it into a star schema with dbt, and serves a live Tableau dashboard, with the pipeline automated through GitHub Actions.",
+      "technologies": [
+        "AWS S3",
+        "Snowflake",
+        "dbt",
+        "Tableau"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau",
+      "demo": "",
+      "cover": "assets/img/covers/snowflake-dbt-tableau-pipeline.jpg"
+    },
+    {
+      "title": "SQL Data Warehouse",
+      "description": "A SQL Server warehouse with bronze, silver, and gold layers that ingests ERP and CRM extracts, cleans and standardizes them, and models a star schema for sales reporting.",
+      "technologies": [
+        "T-SQL",
+        "SQL Server",
+        "Star schema"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project",
+      "demo": "",
+      "cover": "assets/img/covers/sql-data-warehouse.jpg"
+    },
+    {
+      "title": "Customer Churn Prediction",
+      "description": "Statistical tests identify what drives churn at a telecom provider, then a classification model predicts which customers are likely to leave, with retention recommendations and predictions delivered as a CSV.",
+      "technologies": [
+        "Python",
+        "Classification",
+        "Hypothesis testing"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/customer-churn-prediction",
+      "demo": "",
+      "cover": "assets/img/covers/customer-churn-prediction.jpg"
+    },
+    {
+      "title": "HR and Compensation Analytics",
+      "description": "A people analytics data model examining attrition, compensation, performance, and satisfaction, using a normalized MySQL schema with a denormalized MongoDB analytical layer to find which pay bands and performance tiers carry the most turnover risk.",
       "technologies": [
         "MySQL",
         "MongoDB"
       ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link",
+      "github": "",
       "demo": "https://drive.google.com/file/d/1V9KP00OG2pQ-1D93QRNmV9BCbj1UUV0K/view?usp=drive_link",
-      "cover": "assets/img/covers/hr-compensation-analytics-project.svg",
-      "coverAlt": "HR & Compensation Analytics Project — People Analytics"
+      "cover": "assets/img/covers/hr-compensation-analytics.jpg"
     },
     {
-      "title": "AR Autopilot AI Workflow Automation",
-      "description": "AI agent automating a full financial operations lifecycle using LLM-drafted communications and automatic payment matching, routing high-risk cases to human review with every decision logged to an audit trail.",
+      "title": "Supply Chain Analysis for AtliQ Mart",
+      "description": "A Power BI data model and report tracking on-time, in-full, and OTIF delivery for an FMCG manufacturer whose key customers were not renewing contracts over service issues.",
       "technologies": [
-        "LLM"
+        "Power BI",
+        "Data modeling"
       ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9",
-      "demo": "https://www.loom.com/share/eb1a729d7ea647fa8c199d26bfdf9ff9",
-      "cover": "assets/img/covers/ar-autopilot-ai-workflow-automation.svg",
-      "coverAlt": "AR Autopilot AI Workflow Automation — AI Automation"
+      "github": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
+      "demo": "https://app.powerbi.com/view?r=eyJrIjoiOWFkMDVkZGQtMWFhOS00NjBhLThmZGMtYTFiNThlMGNiZjZlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9",
+      "cover": "assets/img/covers/supply-chain-fmcg.jpg"
     },
     {
-      "title": "customer-churn-prediction",
-      "description": "Modern web application demonstrating clean code principles",
+      "title": "Log Analysis and Anomaly Detection",
+      "description": "Parses logs from files or live network streams, extracts features, and flags unusual activity with an Isolation Forest to surface potential security threats as they happen.",
       "technologies": [
-        "Python"
+        "Python",
+        "scikit-learn",
+        "pandas"
       ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/customer-churn-prediction",
-      "demo": "https://github.com/chandravuddamari-spec/customer-churn-prediction",
-      "cover": "assets/img/covers/customer-churn-prediction.svg",
-      "coverAlt": "customer-churn-prediction — Machine Learning"
-    },
-    {
-      "title": "log-analysis-anomaly-detection",
-      "description": "Learning project built with modern web technologies",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection",
-      "demo": "https://github.com/chandravuddamari-spec/log-analysis-anomaly-detection",
-      "cover": "assets/img/covers/log-analysis-anomaly-detection.svg",
-      "coverAlt": "log-analysis-anomaly-detection — Anomaly Detection"
+      "demo": "",
+      "cover": "assets/img/covers/log-anomaly-detection.jpg"
     },
     {
-      "title": "predictive-maintainence-using-data-analysis-and-time-series-forecasting",
-      "description": "Personal project for exploring modern development practices",
+      "title": "Predictive Maintenance",
+      "description": "Uses sensor readings such as temperature, voltage, and pressure to detect when equipment behaves abnormally and forecast failures before they cause unscheduled downtime.",
       "technologies": [
-        "Jupyter Notebook"
+        "Python",
+        "Time-series forecasting",
+        "Jupyter"
       ],
-      "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
-      "demo": "https://github.com/chandravuddamari-spec/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
-      "cover": "assets/img/covers/predictive-maintainence-using-data-analysis-and-time-series-.svg",
-      "coverAlt": "predictive-maintainence-using-data-analysis-and-time-series-forecasting — Forecasting"
+      "demo": "",
+      "cover": "assets/img/covers/predictive-maintenance.jpg"
+    },
+    {
+      "title": "Employee Attrition Prediction",
+      "description": "Models attrition on the IBM HR dataset to find the strongest drivers of turnover and identify which employees are most at risk of leaving, and why.",
+      "technologies": [
+        "Python",
+        "Classification",
+        "Jupyter"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "demo": "",
+      "cover": "assets/img/covers/hr-attrition-prediction.jpg"
+    },
+    {
+      "title": "Analytics Engineering Prototype",
+      "description": "A dimensional model for a specialty-food import-export company, built with dbt on BigQuery to move reporting off an overloaded operational database.",
+      "technologies": [
+        "dbt",
+        "BigQuery",
+        "Dimensional modeling"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype",
+      "demo": "",
+      "cover": "assets/img/covers/analytics-engineering-dimensional-model.jpg"
+    },
+    {
+      "title": "Financial Insights in Banking Data",
+      "description": "A Power BI report on banking transactions and customer accounts, with a branch efficiency rating and credit score analysis to support risk assessment.",
+      "technologies": [
+        "Power BI",
+        "Data cleaning"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi",
+      "demo": "",
+      "cover": "assets/img/covers/banking-financial-insights.jpg"
+    },
+    {
+      "title": "Customer Behavior Analysis",
+      "description": "An end-to-end analysis of retail customer data: preparation in Python, querying in SQL, and a Power BI report on purchasing behavior and customer segments.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Power BI"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi",
+      "demo": "",
+      "cover": "assets/img/covers/customer-trends-analysis.jpg"
+    },
+    {
+      "title": "Sales Insights for a Hardware Company",
+      "description": "SQL ETL into a star schema and a Tableau dashboard analyzing year-on-year sales performance for an India-based computer hardware company.",
+      "technologies": [
+        "SQL",
+        "MySQL",
+        "Tableau"
+      ],
+      "github": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql",
+      "demo": "",
+      "cover": "assets/img/covers/sales-insights-hardware.jpg"
+    },
+    {
+      "title": "BCG X Data Science Job Simulation (Forage)",
+      "description": "Completed a consulting-style data science engagement framing an ambiguous business problem, then working end to end through exploratory data analysis, feature engineering, model building, and evaluation, and translating model output into recommendations.",
+      "technologies": [
+        "Exploratory analysis",
+        "Feature engineering",
+        "Modeling"
+      ],
+      "github": "",
+      "demo": "",
+      "cover": "assets/img/covers/bcg-x-data-science.jpg"
     },
     {
       "title": "time-series-forecasting-python",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
+      "description": "",
+      "technologies": [],
       "github": "https://github.com/chandravuddamari-spec/time-series-forecasting-python",
-      "demo": "https://github.com/chandravuddamari-spec/time-series-forecasting-python",
-      "cover": "assets/img/covers/time-series-forecasting-python.svg",
-      "coverAlt": "time-series-forecasting-python — Forecasting"
-    },
-    {
-      "title": "sql-datawarehouse-project",
-      "description": "Practice application demonstrating full-stack development skills",
-      "technologies": [
-        "TSQL"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project",
-      "demo": "https://github.com/chandravuddamari-spec/sql-datawarehouse-project",
-      "cover": "assets/img/covers/sql-datawarehouse-project.svg",
-      "coverAlt": "sql-datawarehouse-project — Data Warehouse"
-    },
-    {
-      "title": "cohortkit",
-      "description": "Practice application demonstrating full-stack development skills",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/cohortkit",
-      "demo": "https://github.com/chandravuddamari-spec/cohortkit",
-      "cover": "assets/img/covers/cohortkit.svg",
-      "coverAlt": "cohortkit — Cohort Analysis"
-    },
-    {
-      "title": "customer-trends-data-analysis-sql-python-powerbi",
-      "description": "Modern web application demonstrating clean code principles",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi",
-      "demo": "https://github.com/chandravuddamari-spec/customer-trends-data-analysis-sql-python-powerbi",
-      "cover": "assets/img/covers/customer-trends-data-analysis-sql-python-powerbi.svg",
-      "coverAlt": "customer-trends-data-analysis-sql-python-powerbi — SQL · Python · Power BI"
-    },
-    {
-      "title": "field-ops-sql-cost-audit",
-      "description": "Practice repository for exploring advanced features",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit",
-      "demo": "https://github.com/chandravuddamari-spec/field-ops-sql-cost-audit",
-      "cover": "assets/img/covers/field-ops-sql-cost-audit.svg",
-      "coverAlt": "field-ops-sql-cost-audit — Analytical SQL"
-    },
-    {
-      "title": "retail-margin-cockpit",
-      "description": "Personal development project using industry best practices",
-      "technologies": [
-        "Python",
-        "PLpgSQL",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/retail-margin-cockpit",
-      "demo": "https://github.com/chandravuddamari-spec/retail-margin-cockpit",
-      "cover": "assets/img/covers/retail-margin-cockpit.svg",
-      "coverAlt": "retail-margin-cockpit — dbt · DAX"
-    },
-    {
-      "title": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction",
-      "demo": "https://github.com/chandravuddamari-spec/ibm-hr-analytics-employee-attrition-and-performance-prediction",
-      "cover": "assets/img/covers/ibm-hr-analytics-employee-attrition-and-performance-predicti.svg",
-      "coverAlt": "ibm-hr-analytics-employee-attrition-and-performance-prediction — Attrition Modeling"
-    },
-    {
-      "title": "contribution-history",
-      "description": "Generated GitHub contribution history",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/contribution-history",
-      "demo": "https://github.com/chandravuddamari-spec/contribution-history",
-      "cover": "assets/img/covers/contribution-history.svg",
-      "coverAlt": "contribution-history — GitHub"
-    },
-    {
-      "title": "excel-portfolio-project",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/excel-portfolio-project",
-      "demo": "https://github.com/chandravuddamari-spec/excel-portfolio-project",
-      "cover": "assets/img/covers/excel-portfolio-project.svg",
-      "coverAlt": "excel-portfolio-project — Advanced Excel"
-    },
-    {
-      "title": "financial-insights-in-banking-data-using-powerbi",
-      "description": "Personal development project using industry best practices",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi",
-      "demo": "https://github.com/chandravuddamari-spec/financial-insights-in-banking-data-using-powerbi",
-      "cover": "assets/img/covers/financial-insights-in-banking-data-using-powerbi.svg",
-      "coverAlt": "financial-insights-in-banking-data-using-powerbi — Power BI"
+      "demo": "",
+      "cover": "",
+      "hidden": true,
+      "hiddenReason": "No README or analysis code in the repository yet"
     },
     {
       "title": "us-healthcare-analysis-powerbi",
-      "description": "Practice repository for exploring advanced features",
+      "description": "",
       "technologies": [],
-      "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi",
-      "demo": "https://github.com/chandravuddamari-spec/us-healthcare-analysis-powerbi",
-      "cover": "assets/img/covers/us-healthcare-analysis-powerbi.svg",
-      "coverAlt": "us-healthcare-analysis-powerbi — Power BI"
+      "demo": "",
+      "cover": "",
+      "hidden": true,
+      "hiddenReason": "Repository has only CSVs and a README copied from sql-datawarehouse-project"
     },
     {
-      "title": "supply-chain-analysis-in-the-fmcg-domain-atliqmart",
-      "description": "Full-featured application built as a learning exercise",
+      "title": "excel-portfolio-project",
+      "description": "",
       "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
-      "demo": "https://github.com/chandravuddamari-spec/supply-chain-analysis-in-the-fmcg-domain-atliqmart",
-      "cover": "assets/img/covers/supply-chain-analysis-in-the-fmcg-domain-atliqmart.svg",
-      "coverAlt": "supply-chain-analysis-in-the-fmcg-domain-atliqmart — Supply Chain"
+      "github": "https://github.com/chandravuddamari-spec/excel-portfolio-project",
+      "demo": "",
+      "cover": "",
+      "hidden": true,
+      "hiddenReason": "Contains scraped LinkedIn profile data; review before showing"
+    },
+    {
+      "title": "contribution-history",
+      "description": "",
+      "technologies": [],
+      "github": "https://github.com/chandravuddamari-spec/contribution-history",
+      "demo": "",
+      "cover": "",
+      "hidden": true,
+      "hiddenReason": "Generated commit history, not a project"
     },
     {
       "title": "lakehouse-quality-gate",
-      "description": "Practice application demonstrating full-stack development skills",
+      "description": "",
       "technologies": [],
-      "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate",
-      "demo": "https://github.com/chandravuddamari-spec/lakehouse-quality-gate",
-      "cover": "assets/img/covers/lakehouse-quality-gate.svg",
-      "coverAlt": "lakehouse-quality-gate — Data Quality"
-    },
-    {
-      "title": "end-to-end-pipeline-snowflake-dbt-tableau",
-      "description": "Hands-on learning experience with modern frameworks",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau",
-      "demo": "https://github.com/chandravuddamari-spec/end-to-end-pipeline-snowflake-dbt-tableau",
-      "cover": "assets/img/covers/end-to-end-pipeline-snowflake-dbt-tableau.svg",
-      "coverAlt": "end-to-end-pipeline-snowflake-dbt-tableau — Snowflake · dbt"
-    },
-    {
-      "title": "analytics-engineering-prototype",
-      "description": "Practice repository for exploring advanced features",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype",
-      "demo": "https://github.com/chandravuddamari-spec/analytics-engineering-prototype",
-      "cover": "assets/img/covers/analytics-engineering-prototype.svg",
-      "coverAlt": "analytics-engineering-prototype — dbt · BigQuery"
-    },
-    {
-      "title": "sales-insights-data-analysis-using-tableau-and-sql",
-      "description": "Comprehensive project exploring software design patterns",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql",
-      "demo": "https://github.com/chandravuddamari-spec/sales-insights-data-analysis-using-tableau-and-sql",
-      "cover": "assets/img/covers/sales-insights-data-analysis-using-tableau-and-sql.svg",
-      "coverAlt": "sales-insights-data-analysis-using-tableau-and-sql — Tableau · SQL"
+      "demo": "",
+      "cover": "",
+      "hidden": true,
+      "hiddenReason": "Empty scaffolding"
     },
     {
       "title": "streamlit-digital-marketing-dashboard",
-      "description": "Interactive application built for continuous learning",
+      "description": "",
       "technologies": [],
-      "icon": "fas fa-project-diagram",
       "github": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard",
-      "demo": "https://github.com/chandravuddamari-spec/streamlit-digital-marketing-dashboard",
-      "cover": "assets/img/covers/streamlit-digital-marketing-dashboard.svg",
-      "coverAlt": "streamlit-digital-marketing-dashboard — Streamlit"
+      "demo": "",
+      "cover": "",
+      "hidden": true,
+      "hiddenReason": "Empty repository"
     }
-  ]
+  ],
+  "lede": "Analytics engineering, forecasting, and BI work. Each card links to the code, a demo, or a write-up.",
+  "_hiddenHelp": "Set \"hidden\": true to keep a project in the data without showing it."
 }

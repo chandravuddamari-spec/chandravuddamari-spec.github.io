@@ -1,7 +1,7 @@
 {
   "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
   "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
-  "sectionTitle": "Skills & Technologies",
+  "sectionTitle": "Skills and tools",
   "categories": [
     {
       "category": "Programming Languages",
